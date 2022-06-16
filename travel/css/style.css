@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Magra', sans-serif;
+  src: url("../assets/fonts/Magra/Magra-Regular.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Red Hat Text', sans-serif;
+  src: url("../assets/fonts/Red_Hat_Text/RedHatText-VariableFont_wght.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Aleo', serif;
+  src: url("../assets/fonts/Aleo/Aleo-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Aleo', serif;
+  src: url("../assets/fonts/Aleo/Aleo-BoldItalic.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Aleo', serif;
+  src: url("../assets/fonts/Aleo/Aleo-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Aleo', serif;
+  src: url("../assets/fonts/Aleo/Aleo-Italic.ttf");
+  font-weight: 400;
+}
