@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 680px;
+  }
+}
+
+@media(max-width: 680px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+.main {
+  position: relative;
+  top: -91px;
+}
+
+.button {
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #0d606f;
+  border-style: none;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+button:hover {
+  cursor: pointer;
+}
