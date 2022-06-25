@@ -1,0 +1,19 @@
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 680px;
+  }
+}
+
+@media(max-width: 680px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+

@@ -3,7 +3,9 @@
 }
 
 body {
-  margin: 0;
+  width: 1440px;
+  position: relative;
+  margin: 0 auto;
 }
 
 ul {
@@ -31,30 +33,6 @@ h3 {
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-
-@media(max-width: 1200px) {
-  .container {
-    width: 900px;
-  }
-}
-
-@media(max-width: 900px) {
-  .container {
-    width: 680px;
-  }
-}
-
-@media(max-width: 680px) {
-  .container {
-    width: 100%;
-    padding: 0 15px;
-  }
-}
-
-.main {
-  position: relative;
-  top: -91px;
 }
 
 .button {
