@@ -29,6 +29,19 @@
   border-radius: 16px;
 }
 
+.steps__icon-container:hover {
+  animation: rotate 1.6s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 .steps__text {
   font-family: 'Aleo-Regular';
   font-size: 20px;

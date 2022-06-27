@@ -32,6 +32,12 @@
   font-weight: 500;
 }
 
-.footer__link {
-  color: inherit;
+.footer__link:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.footer__icon:hover {
+  fill: #f2785c;
+  transition: 0.5s;
 }
