@@ -168,4 +168,42 @@
     line-height: 15px;
   }
 
+  .steps {
+    padding: 20px 0;
+  }
+
+  .section__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .steps__title {
+    margin-bottom: 20px;
+  }
+
+  .steps__icon-container {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 0px 17px;
+  }
+
+  .steps__text {
+    font-family: 'Aleo-Regular';
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+  }
+
+  .steps__text-left {
+    text-align: left;
+  }
+
+  .steps__text-center {
+    text-align: center;
+  }
+
+  .steps__text-right {
+    text-align: right;
+  }
 }
