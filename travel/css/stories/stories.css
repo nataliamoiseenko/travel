@@ -5,7 +5,7 @@
 .section__wrapper {
   padding-bottom: 61px;
   background-image: url('../../assets/img/img-stories-bg.png');
-  background-size: contain;
+  background-size: cover;
 }
 
 .stories__wrapper {

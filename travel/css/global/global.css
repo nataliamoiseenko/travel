@@ -3,7 +3,6 @@
 }
 
 body {
-  width: 1440px;
   position: relative;
   margin: 0 auto;
 }
@@ -45,7 +44,7 @@ h3 {
   white-space: nowrap;
 }
 
-button:hover {
+.button:hover {
   color: #0d606f;
   background-color: #fff;
   outline: solid 3px #0d606f;
@@ -53,7 +52,7 @@ button:hover {
   transition: all 0.8s;
 }
 
-button:hover > svg path {
+.button:hover > svg path {
   fill: #0d606f;
   transition: all 0.8s;
 }
