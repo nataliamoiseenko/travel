@@ -275,8 +275,20 @@
     font-weight: 700;
   }
 
+  .stories__article-title-mobile {
+    margin-top: 5px;
+  }
+
   .stories__article-text {
     font-size: 9px;
     line-height: 11px;
+  }
+
+  .footer {
+    height: 65px;
+  }
+
+  .footer__text {
+    display: none;
   }
 }
