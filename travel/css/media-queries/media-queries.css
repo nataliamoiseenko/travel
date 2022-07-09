@@ -20,10 +20,6 @@
   .container {
     width: 942px;
   }
-
-  .stories__article {
-    flex-direction: column;
-  }
 }
 
 @media screen and (max-width: 1020px) {
@@ -37,10 +33,6 @@
 
   .header__navigation-list-item + .header__navigation-list-item {
     margin-left: 21px;
-  }
-
-  .stories__article {
-    flex-direction: column;
   }
 }
 
@@ -59,10 +51,6 @@
 
   .preview__input-container {
     width: 95%;
-  }
-
-  .stories__article {
-    flex-direction: column;
   }
 }
 
@@ -83,12 +71,7 @@
   .preview__input-container {
     width: 90%;
   }
-
-  .stories__article {
-    flex-direction: column;
-  }
 }
-
 
 @media screen and (max-width: 600px) {
   .container {
@@ -102,10 +85,6 @@
 
   .header__navigation-list-item + .header__navigation-list-item {
     margin-left: 21px;
-  }
-
-  .stories__article {
-    flex-direction: column;
   }
 }
 
@@ -205,5 +184,99 @@
 
   .steps__text-right {
     text-align: right;
+  }
+
+  .destinations {
+    margin-bottom: 20px;
+  }
+
+  .destinations__title {
+    margin-bottom: 20px;
+  }
+
+  .destinations__img-slider {
+    justify-content: left;
+    gap: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+  .destinations__img {
+    width: 360px;
+    height: 210px;
+    object-fit: cover;
+  }
+
+  .destinations__text {
+    top: 8px;
+    left: 15px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .destinations__slider-button-container {
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .destinations__slider-button {
+    width: 8px;
+    height: 8px;
+  }
+
+  .destinations__slider-button-active {
+    background-color: rgba(242, 120, 92, 0.5);
+  }
+
+  .destinations__slider-button-active-mobile {
+    background-color: #f2785c;
+  }
+
+  .section__button {
+    gap: 7px;
+    width: 92px;
+    height: 30px;
+    padding: 0px 12px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .stories__title {
+    margin-bottom: 10px;
+  }
+
+  .section__wrapper {
+    padding-bottom: 65px;
+  }
+
+  .stories__wrapper {
+    padding: 10px 0 13px 0;
+  }
+
+  .stories__article {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .stories__article-journey {
+    margin-bottom: 10px;
+  }
+
+  .stories__img {
+    width: 155px;
+    height: 130px;
+    object-fit: cover;
+  }
+
+  .stories__article-title {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
+  }
+
+  .stories__article-text {
+    font-size: 9px;
+    line-height: 11px;
   }
 }
