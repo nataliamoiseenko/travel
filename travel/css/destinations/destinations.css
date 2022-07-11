@@ -72,3 +72,11 @@
 .destinations__slider-button-active {
   background-color: #f2785c;
 }
+
+.destinations__slider-button-left-mobile {
+  display: none;
+}
+
+.destinations__slider-button-right-mobile {
+  display: none;
+}
