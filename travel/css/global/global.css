@@ -3,7 +3,6 @@
 }
 
 body {
-  width: 1440px;
   position: relative;
   margin: 0 auto;
 }
@@ -45,8 +44,17 @@ h3 {
   white-space: nowrap;
 }
 
-button:hover {
+.button:hover {
+  color: #0d606f;
+  background-color: #fff;
+  outline: solid 3px #0d606f;
   cursor: pointer;
+  transition: all 0.8s;
+}
+
+.button:hover > svg path {
+  fill: #0d606f;
+  transition: all 0.8s;
 }
 
 .section__title {
@@ -74,4 +82,8 @@ button:hover {
   font-size: 24px;
   line-height: 32px;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+html {
+  scroll-behavior: smooth;
 }

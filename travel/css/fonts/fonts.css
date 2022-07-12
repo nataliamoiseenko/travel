@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Magra', sans-serif;
-  src: url("../../assets/fonts/Magra/Magra-Regular.ttf");
+  font-family: 'Magra';
+  src: url("../../assets/fonts/Magra/Magra-Bold.ttf");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: 'Red Hat Text';
   src: url("../../assets/fonts/Red_Hat_Text/RedHatText-VariableFont_wght.ttf");
   font-weight: 500;
 }
