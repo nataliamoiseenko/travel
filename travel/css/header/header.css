@@ -80,6 +80,10 @@
   display: none;
 }
 
+.header__burger-menu-list {
+  display: none;
+}
+
 .header__burger-menu-button,
 .header__burger-menu-button::before,
 .header__burger-menu-button::after {
