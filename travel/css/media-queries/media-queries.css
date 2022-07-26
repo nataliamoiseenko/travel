@@ -250,6 +250,14 @@
   .preview__content {
     width: 100%;
   }
+
+  .pop-up__content {
+    width: 100%;
+  }
+
+  .pop-up__content-wrapper {
+    padding: 25px 15px 23px;
+  }
 }
 
 @media screen and (max-width: 708px) {
@@ -498,6 +506,7 @@
     left: 26px;
     display: block;
     transform: translateY(-50%);
+    cursor: pointer;
   }
   
   .destinations__slider-button-right-mobile {
@@ -506,6 +515,7 @@
     right: 26px;
     display: block;
     transform: translateY(-50%);
+    cursor: pointer;
   }
 
   .section__button {
